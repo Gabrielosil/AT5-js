@@ -96,7 +96,7 @@ while (continuar) {
     entrar();
     let opcao = prompt("Deseja continuar cadastrando? (1 - Sim, 2 - Exibir)");
     if (opcao === "2") {
-        if (nomes.length >= 1) {
+        if (nomes.length >= 5) {
             exibirCadastrados();
             continuar = false;
         } else {

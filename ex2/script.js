@@ -98,7 +98,7 @@ function iniciarCadastro() {
 
     while (continuar) {
         cadastrarVestibulando();
-        if (vestibulandos.length >= 1) {
+        if (vestibulandos.length >= 5) {
             const opcao = prompt("Deseja continuar cadastrando? (1 - Sim, 2 - Exibir resultados)");
             if (opcao === "2") {
                 exibirResultados();
