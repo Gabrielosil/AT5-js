@@ -66,7 +66,7 @@ function getResultado(nota) {
 function isValidNome(nome) {
     return nome && nome.split(' ').length >= 2 && !/\d/.test(nome);
 }
-
+// startsWith () determina se uma string começa com os caracteres especificados
 function isValidInscricao(inscricao) {
     return /^\d{10}$/.test(inscricao) && inscricao.startsWith("2024");
 }
